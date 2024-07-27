@@ -442,7 +442,7 @@
         let speed = '100';
 
         let xhr = new XMLHttpRequest();
-        let url = 'https://' + ipAddress + '/sendSignal?pin1=' + pin1 + '&pin2=' + pin2 + '&second=' + second + '&speed=' + speed + '&analogPin=' + analogPin;
+        let url = 'http://' + ipAddress + '/sendSignal?pin1=' + pin1 + '&pin2=' + pin2 + '&second=' + second + '&speed=' + speed + '&analogPin=' + analogPin;
 
         xhr.open('GET', url, true);--
         xhr.send();
